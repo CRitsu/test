@@ -1,0 +1,29 @@
+.skin-wrapper.orange .skin-item {
+  background-color: rgb(218, 117, 84);
+}
+
+.skin-wrapper.orange {
+  border-color: rgb(218, 117, 84);
+}
+
+.orange.todo-list {
+  background: linear-gradient(#eb7956 0%, #f47c57 15%, #fe8a63 50%, #feb998 100%);
+  ;
+}
+
+.orange .menu-wrapper.clicked .menu-graph {
+  fill: rgba(255, 255, 255, .4);
+}
+
+.orange .completed-list .items .content {
+  color: rgba(0, 0, 0, 1)
+}
+
+.orange .save,
+.orange .toggle-show {
+  background-color: #fb7e4c;
+}
+
+.orange .pop-up {
+  background: #fb7e4c;
+}

@@ -1,0 +1,63 @@
+.skin-wrapper.light .skin-item {
+  background-image: url(../resources/skin-icon.jpg);
+  background-size: 28px 28px;
+  background-position: center;
+}
+
+.skin-wrapper.light {
+  border-color: rgb(152, 68, 45);
+}
+
+.light.todo-list {
+  background: url(http://wx3.sinaimg.cn/large/65f02d4egy1frfwsba4wqj20ku11idww.jpg);
+  background-size: cover;
+}
+
+.light .save,
+.light .modify,
+.light .pop-up,
+.light .toggle-show,
+.light .header,
+.light .input-area,
+.light .items,
+.light ::placeholder {
+  color: black;
+}
+
+.light .items {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.light .input-area {
+  background-color: rgba(0, 0, 0, .2);
+  border: none;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5) inset;
+}
+
+.light .save,
+.light .toggle-show {
+  background-color: #87534f94;
+  border: none;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5) inset;  
+}
+
+.light .pop-up {
+  background: transparent;
+  position: relative;
+}
+
+.light .pop-up::after {
+  position: absolute;
+  opacity: .9;
+  content: '';
+  background: url(http://wx3.sinaimg.cn/large/65f02d4egy1frfwsba4wqj20ku11idww.jpg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+

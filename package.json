@@ -2,10 +2,14 @@
   "name": "rtest",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "reduce-reducers": "^0.3.0",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

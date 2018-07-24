@@ -1,0 +1,40 @@
+.skin-wrapper.dark .skin-item {
+  background-color: #1b1b1b;
+}
+
+.skin-wrapper.dark {
+  border-color: #1b1b1b;
+}
+
+.dark.todo-list {
+  background: #1b1b1b;
+}
+
+.dark .menu-wrapper.clicked .menu-graph {
+  fill: rgba(255, 255, 255, .4);
+}
+
+.dark .items {
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.dark .input-area {
+  background-color: rgba(255, 255, 255, .5);
+  border: none;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5) inset;
+}
+
+.dark .completed-list .items .content {
+  color: rgba(0, 0, 0, 1)
+}
+
+.dark .save,
+.dark .toggle-show {
+  background-color: #918e8e;
+  border: none;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5) inset;  
+}
+
+.dark .pop-up {
+  background: #1b1b1b;
+}
